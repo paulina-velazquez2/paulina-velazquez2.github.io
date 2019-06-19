@@ -1,0 +1,91 @@
+
+table.jexcel {
+    margin: -20px 0 -10px 0;
+    padding: -20px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #626262;
+    border-color: white;
+}
+
+/**  First column ] start  **/
+table.jexcel > thead > tr > td
+{
+    border-top:1px solid transparent;
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+    border-bottom:1px solid transparent;
+    background-color: rgba(235, 235, 235, 0.6);
+    padding:2px;
+    cursor: default;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: ;
+    top: 0;
+    z-index:2000;
+}
+
+table.jexcel > thead > tr > td.selected
+{
+    background-color:#e9e9e9;
+}
+/** First Column ] end **/
+
+/**  First row ] start  **/
+table.jexcel > thead > tr > td:first-child {
+    background-color: white;
+}
+
+table.jexcel > tbody > tr > td:first-child
+{
+    position:relative;
+    background-color: white;
+    text-align:center;
+    color: white;
+}
+
+table.jexcel > tbody > tr.selected > td:first-child
+{
+    background-color: white;
+}
+/**  First row ] ends  **/
+
+
+/** This row needs to get deleted **/
+table.jexcel > thead > tr > td:first-child {
+    visibility: hidden;
+
+}
+
+table.jexcel > tbody > tr > td:first-child
+{
+    visibility: hidden;
+}
+/** This row needs to get deleted **/
+
+.jexcel .highlight-top {
+    border-color: #00d2d3;
+    border-top:1px solid #00d2d3;
+    cursor: text;
+}
+
+.jexcel_corner
+{
+    display: none;
+}
+
+table.jexcel > tbody > tr > td
+{
+    border-top:1px solid #ededed;
+    border-left:1px solid transparent;
+    border-right:1px solid #ededed;
+    border-bottom:1px solid transparent;
+    padding:5px;
+    box-sizing: border-box;
+    line-height:1em;
+}
+
+.jexcel .highlight {
+    background-color: #e9e9e9;
+}
+

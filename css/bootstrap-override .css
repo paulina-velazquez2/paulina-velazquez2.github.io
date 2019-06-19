@@ -1,0 +1,86 @@
+body {
+    margin: -80px 0 0 0;
+    background-color: #f4f7fa;;
+}
+
+.row {
+    padding: 0 30px 10px 20px;
+    display: flex;
+
+}
+
+.card {
+    box-shadow: none;
+
+}
+
+.card-borderless {
+    border: 0;
+
+}
+.card-group{
+    display: flex;
+
+}
+
+#radial-container {
+    margin: 5px 0 20px 0;
+}
+
+
+/**  =====================
+      Custom CSS Track Call Button ] start
+==========================  **/
+
+a.btn-success {
+    background-color: rgb(0, 210, 211);
+    background-image: linear-gradient(to bottom right, #1be9b8, #00d2d3);
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.btn-success  {
+    background-color: rgb(0, 210, 211);
+    background-image: linear-gradient(to bottom right, #1be9b8, #00d2d3);
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #00d2d3;
+    border-color: white;
+    background-position: right center;
+    opacity: 1;
+}
+
+.btn-success:focus, .btn-success.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(235, 235, 235, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(235, 235, 235, 0.5);
+}
+
+.btn-success.disabled, .btn-success:disabled {
+    color: #fff;
+    background-color: yellow;
+    border-color: black;
+}
+
+.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.5rem rgba(235, 235, 235, 0.5);
+    box-shadow: 0 0 0 0.5rem rgba(235, 235, 235, 0.5);
+}
+
+
+/**  =====================
+      Custom CSS Track Call Button ] end
+==========================  **/
